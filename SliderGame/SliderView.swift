@@ -10,9 +10,9 @@ import SwiftUI
 struct SliderView: View {
     @Binding var currentValue: Double
     
-    var targetValue: Int
-    var color: UIColor
-    var alpha: Int
+    let targetValue: Int
+    let color: UIColor
+    let alpha: Int
     
     var body: some View {
         VStack {
